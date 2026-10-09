@@ -1,4 +1,3 @@
-
 if (-not $args) {
     Write-Host
     Write-Host 'Need help? Check our homepage: ' -NoNewline
