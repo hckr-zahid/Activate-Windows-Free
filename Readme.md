@@ -1,4 +1,5 @@
-# 🪟 Activate Windows with PowerShell
+<h1 align="center">🪟 Activate Windows with PowerShell</h1>
+
 
 <p align="center">
   <strong>Windows Activation • PowerShell • Security Research</strong>
@@ -155,6 +156,36 @@ The following concepts are useful when researching Windows activation:
 | Internet connection fails     | Check connectivity and retry when service is available.     |
 | Script behavior is unexpected | Stop execution and inspect the source and system changes.   |
 | Activation status is unclear  | Review Windows Settings and the output of `slmgr.vbs /xpr`. |
+---
+
+## 🔎 Static Security Research
+
+This repository includes a static security analysis of `MAS_AIO.cmd`, examining Windows system-integrity implications and activation-related behavior.
+
+### Research topics
+
+* Windows and Office licensing-related modifications
+* DLL replacement and software integrity
+* Scheduled tasks and recurring execution
+* Registry, service, and licensing-store changes
+* Network behavior and external endpoints
+* Defensive recommendations and research limitations
+
+### Read the research
+
+📂 **[Explore the Research folder](Research/)**
+
+* [Research overview](Research/README.md)
+* [Key findings](Research/FINDINGS_SUMMARY.md)
+* [Analysis methodology](Research/METHODOLOGY.md)
+* [Evidence index](Research/EVIDENCE_INDEX.md)
+* [Research ethics and limitations](Research/RESEARCH_ETHICS.md)
+* [Read the full report (PDF)](Research/report/MAS_AIO_CMD_Static_Security_Research_Report.pdf)
+* [Download the full report (DOCX)](Research/report/MAS_AIO_CMD_Static_Security_Research_Report.docx)
+
+### Research limitations
+
+This assessment is based on static source-code review. The analyzed script was not executed as part of this research. Findings describe observed code behavior and potential risks; they do not establish that the script is malware or guarantee that it is safe.
 
 ## 📚 References
 
