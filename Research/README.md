@@ -20,9 +20,15 @@ The analysis focuses on what the reviewed source code appears designed to do, wh
 - A troubleshooting path includes significant WMI repository/service repair operations.
 - The reviewed source did **not** establish credential theft or general-purpose malware behavior. This is not a guarantee that every code path or embedded component is safe.
 
-## Report
+## Full Research Report
 
-Read the full research report in [`report/`](report/). The DOCX is the primary report currently included. If you add a PDF, link it here as well.
+Read the complete static security analysis:
+
+* [**Read the PDF report**](report/MAS_AIO_CMD_Static_Security_Research_Report.pdf)
+
+## Research Limitations
+
+This assessment is based on static source-code review. The analyzed script was not executed as part of this research. Findings describe observed code behavior and potential system-integrity risks; they are not proof that the script is malware or a guarantee that it is safe.
 
 ## Scope and limitations
 
