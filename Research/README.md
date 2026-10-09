@@ -39,20 +39,20 @@ The findings are not a blanket declaration that the project is malware, nor a de
 
 Hashes identify file content; a matching hash does not independently prove that a file is safe or trustworthy. Confirm the artifact and commit yourself before relying on these identifiers.
 
+
 ## Repository map
 
 ```text
-.
+Research/
 ├── README.md
 ├── METHODOLOGY.md
 ├── FINDINGS_SUMMARY.md
 ├── EVIDENCE_INDEX.md
 ├── RESEARCH_ETHICS.md
-├── .gitignore
-├── report/
-│   └── MAS_AIO_CMD_Static_Security_Research_Report.docx
-└── evidence/
-    └── README.md
+└── report/
+    └── MAS_AIO_CMD_Static_Security_Research_Report.pdf
+```
+
 ```
 
 ## Intended audience
